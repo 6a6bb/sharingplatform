@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: sharingplatform
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 123456
+      url: jdbc:mysql://47.97.186.90/share_knowledge?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF8
+
+  servlet:
+    multipart:           #设置文件上传大小
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true # mybatis自动下换线转小驼峰
+    use-generated-keys: true #mybatisz插入自增主键返回
+  mapper-locations: classpath:mapper/*.xml  # mapper路径配置
