@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0737573a-c025-496a-beea-2c27d7889833" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/bo/FileMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/config/ConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/ResultConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/TweetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/Tweet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/mapper/TweetMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/TweetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/TweetServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/util/UploadFileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/vo/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/vo/PageLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/vo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TweetMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/SharingplatformApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/SharingplatformApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/controller/TestController.class" beforeDir="false" />
-    </list>
+    <list default="true" id="0737573a-c025-496a-beea-2c27d7889833" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +164,7 @@
       <workItem from="1581177236920" duration="388000" />
       <workItem from="1581177655998" duration="411000" />
       <workItem from="1581213885161" duration="20290000" />
-      <workItem from="1581304933082" duration="2216000" />
+      <workItem from="1581304933082" duration="2541000" />
     </task>
     <servers />
   </component>
