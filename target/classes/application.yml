@@ -8,8 +8,8 @@ spring:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/exam?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF8
+      password: 225588
+      url: jdbc:mysql://47.97.186.90/share_knowledge?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF8
 
   servlet:
     multipart:           #设置文件上传大小
@@ -19,5 +19,9 @@ spring:
 mybatis:
   configuration:
     map-underscore-to-camel-case: true # mybatis自动下换线转小驼峰
-    use-generated-keys: true #mybatisz插入自增主键返回
+    use-generated -keys: true #mybatisz插入自增主键返回
   mapper-locations: classpath:mapper/*.xml  # mapper路径配置
+
+file:
+  folderRealPath: D:/项目/sharingplatform/src/main/resources/static/img #文件夹绝对位置
+  folderPath: img #文件夹相对位置

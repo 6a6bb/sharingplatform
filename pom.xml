@@ -10,10 +10,10 @@
         <version>2.1.9.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ai</groupId>
+    <groupId>com.littlea</groupId>
     <artifactId>shangringplatform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>turing</name>
+    <name>shangringplatform</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
