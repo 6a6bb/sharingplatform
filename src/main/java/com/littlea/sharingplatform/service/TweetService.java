@@ -16,61 +16,57 @@ public interface TweetService extends IService<Tweet> {
 
     /**
      * 发布推文
-     * @param tweet
-     * @param cover
-     * @param files
-     * @param strings
-     * @return
-     * @throws IOException
+     * @param tweet 推文信息
+     * @param cover 封面图片
+     * @return 发布结果
+     * @throws IOException IO错误
      */
-    Result addTweet(Tweet tweet, MultipartFile cover, MultipartFile[] files, String[] strings) throws IOException;
+    Result addTweet(Tweet tweet, MultipartFile cover) throws IOException;
 
     /**
      * 删除推文
-     * @param tweetId
-     * @return
+     * @param tweetId 推文id
+     * @return 删除结果
      */
     Result deleteTweet(Integer tweetId);
 
     /**
      * 查看推文总列表
-     * @param pageLimit
-     * @param type
-     * @return
+     * @param pageLimit 分页信息
+     * @param type 推文类别
+     * @return 推文总列表
      */
     Result getAllTweetList(PageLimit pageLimit, Integer type);
 
     /**
      * 查看当前用户发布的推文列表
-     * @param pageLimit
-     * @param type
-     * @param author
-     * @return
+     * @param pageLimit 分页信息
+     * @param type 推文类别
+     * @param author 当前用户
+     * @return 当前用户发布的推文列表
      */
     Result getUserTweetList(PageLimit pageLimit,Integer type,String author);
 
     /**
      * 获得推文详情
-     * @param tweetId
-     * @return
+     * @param tweetId 推文id
+     * @return 推文详情
      */
     Result getTweetDetail(Integer tweetId);
 
     /**
      * 修改推文
-     * @param tweet
-     * @param cover
-     * @param files
-     * @param strings
-     * @return
-     * @throws IOException
+     * @param tweet 推文信息
+     * @param cover 封面图片
+     * @return 修改结果
+     * @throws IOException IO错误
      */
-    Result updateTweet(Tweet tweet, MultipartFile cover, MultipartFile[] files, String[] strings) throws IOException;
+    Result updateTweet(Tweet tweet, MultipartFile cover)throws IOException;
 
     /**
      * 增加推文阅读量
-     * @param tweetId
-     * @return
+     * @param tweetId 推文id
+     * @return 增加结果
      */
     Result increaseTweetReading(Integer tweetId);
 }

@@ -24,11 +24,11 @@ public class TweetController {
     private TweetService tweetService;
 
     @PostMapping("api/v1/tweet/add")
-    public Result addTweet(String title, String summary, MultipartFile cover , Integer type ,MultipartFile[] files, String[] strings){
+    public Result addTweet(Tweet tweet, MultipartFile cover){
         String author = "a";
-        Tweet tweet = new Tweet(title,summary,type,author);
+        tweet.setAuthor(author);
         try {
-            return tweetService.addTweet(tweet,cover,files,strings);
+            return tweetService.addTweet(tweet,cover);
         } catch (IOException e) {
             e.printStackTrace();
             return ResultConstant.SYSTEM_ERROR;
@@ -57,11 +57,11 @@ public class TweetController {
     }
 
     @PostMapping("api/v1/tweet/update")
-    public Result updateTweet(Integer tweetId, String title, String summary, MultipartFile cover, Integer type ,MultipartFile[] files, String[] strings){
+    public Result updateTweet(Tweet tweet, MultipartFile cover){
         String author = "a";
-        Tweet tweet = new Tweet(tweetId,title,summary,type,author);
+        tweet.setAuthor(author);
         try {
-            return tweetService.updateTweet(tweet,cover,files,strings);
+            return tweetService.updateTweet(tweet,cover);
         } catch (IOException e) {
             e.printStackTrace();
             return ResultConstant.SYSTEM_ERROR;

@@ -1,7 +1,14 @@
 server:
   port: 8080
 
+web:
+  upload-path: D:/
+
 spring:
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}
+  mvc:
+    static-path-pattern: /**
   application:
     name: sharingplatform
   datasource:
@@ -13,8 +20,8 @@ spring:
 
   servlet:
     multipart:           #设置文件上传大小
-      max-file-size: 1024MB
-      max-request-size: 1024MB
+      max-file-size: 500MB
+      max-request-size: 500MB
 
 mybatis:
   configuration:
@@ -22,6 +29,14 @@ mybatis:
     use-generated -keys: true #mybatisz插入自增主键返回
   mapper-locations: classpath:mapper/*.xml  # mapper路径配置
 
+
 file:
   folderRealPath: D:/项目/sharingplatform/src/main/resources/static/img #文件夹绝对位置
   folderPath: img #文件夹相对位置
+
+logging:              # 开发使用，对dao层数据库访问进行详细记录（后期删除）
+  level:
+    com:
+      littlea:
+        sharingplatform:
+          mapper: debug

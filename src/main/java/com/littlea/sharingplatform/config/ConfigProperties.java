@@ -16,12 +16,12 @@ public class ConfigProperties {
      * 文件夹绝对位置
      */
     @Value("${file.folderRealPath}")
-    public static String folderRealPath;
+    public String folderRealPath;
 
     /**
      * 文件夹相对位置
      */
     @Value("${file.folderPath}")
-    public static String folderPath;
+    public String folderPath;
 
 }

@@ -1,6 +1,8 @@
 package com.littlea.sharingplatform.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.littlea.sharingplatform.bo.FileMessage;
+import com.littlea.sharingplatform.config.ConfigProperties;
 import com.littlea.sharingplatform.constant.ResultConstant;
 import com.littlea.sharingplatform.entity.Tweet;
 import com.littlea.sharingplatform.mapper.TweetMapper;
@@ -10,12 +12,13 @@ import com.littlea.sharingplatform.vo.Page;
 import com.littlea.sharingplatform.vo.PageLimit;
 import com.littlea.sharingplatform.vo.Result;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
@@ -28,18 +31,28 @@ import java.util.Objects;
 public class TweetServiceImpl extends ServiceImpl<TweetMapper, Tweet> implements TweetService {
 
     private TweetMapper tweetMapper;
+    private ConfigProperties configProperties;
 
     @Override
     @Transactional(rollbackFor = IOException.class)
-    public Result addTweet(Tweet tweet, MultipartFile cover, MultipartFile[] files, String[] strings) throws IOException {
-        //1、上传封面和文章图片并获得相关信息
-        Tweet tweetMessage = UploadFileUtil.uploadText(cover,files,strings);
-        if (tweetMessage == null) {
-            return ResultConstant.PICTURE_FORMAT_ERROR;
-        }else{
-            BeanUtils.copyProperties(tweetMessage,tweet);
+    public Result addTweet(Tweet tweet, MultipartFile cover) throws IOException {
+        if(     Objects.isNull(tweet.getTitle())||
+                Objects.isNull(tweet.getSummary())||
+                Objects.isNull(cover)||
+                Objects.isNull(tweet.getType())||
+                Objects.isNull(tweet.getContent())
+        ){
+            return ResultConstant.ARGS_ERROR;
         }
-        //2、存入数据库
+        //上传封面图片
+        String type = "img";
+        FileMessage fileMessage = UploadFileUtil.uploadFile(cover,configProperties.getFolderPath(),configProperties.getFolderRealPath(),type);
+        if(fileMessage == null){
+            return ResultConstant.PICTURE_FORMAT_ERROR;
+        }
+        tweet.setCoverAddress(fileMessage.getFilePath());
+        tweet.setReleaseDate(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+        //存入数据库
         tweetMapper.insert(tweet);
         return ResultConstant.SUCCESS;
     }
@@ -83,18 +96,28 @@ public class TweetServiceImpl extends ServiceImpl<TweetMapper, Tweet> implements
 
     @Override
     @Transactional(rollbackFor = IOException.class)
-    public Result updateTweet(Tweet tweet, MultipartFile cover, MultipartFile[] files, String[] strings) throws IOException {
+    public Result updateTweet(Tweet tweet, MultipartFile cover)throws IOException {
+        if(     Objects.isNull(tweet.getTweetId())||
+                Objects.isNull(tweet.getTitle())||
+                Objects.isNull(tweet.getSummary())||
+                Objects.isNull(cover)||
+                Objects.isNull(tweet.getType())||
+                Objects.isNull(tweet.getContent())
+        ){
+            return ResultConstant.ARGS_ERROR;
+        }
         if(tweetMapper.selectCountById(tweet.getTweetId()) == 0){
             return ResultConstant.TWEET_NOT_FOUND;
         }
-        //1、上传封面和文章图片并获得相关信息
-        Tweet tweetMessage = UploadFileUtil.uploadText(cover,files,strings);
-        if (tweetMessage == null) {
+        //上传封面图片
+        String type = "img";
+        FileMessage fileMessage = UploadFileUtil.uploadFile(cover,configProperties.getFolderPath(),configProperties.getFolderRealPath(),type);
+        if(fileMessage == null){
             return ResultConstant.PICTURE_FORMAT_ERROR;
-        }else{
-            BeanUtils.copyProperties(tweetMessage,tweet);
         }
-        //2、存入数据库
+        tweet.setCoverAddress(fileMessage.getFilePath());
+        tweet.setReleaseDate(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+        //更改数据库
         tweetMapper.updateById(tweet);
         return ResultConstant.SUCCESS;
     }
@@ -114,4 +137,5 @@ public class TweetServiceImpl extends ServiceImpl<TweetMapper, Tweet> implements
         tweetMapper.updateById(tweet);
         return ResultConstant.SUCCESS;
     }
+
 }
