@@ -1,14 +1,7 @@
 server:
   port: 8080
 
-web:
-  upload-path: D:/
-
 spring:
-  resources:
-    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}
-  mvc:
-    static-path-pattern: /**
   application:
     name: sharingplatform
   datasource:
@@ -17,11 +10,21 @@ spring:
       username: root
       password: 225588
       url: jdbc:mysql://47.97.186.90/share_knowledge?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF8
-
+  redis:
+    database: 1
+    host: 47.97.186.90
+    port: 6379
+    password: chenqiting
+  mail:
+      host: smtp.qq.com
+      port: 25
+      username: 1179374184@qq.com
+      password: kbtphmwneiyrhahj
+      default-encoding: utf-8
   servlet:
     multipart:           #设置文件上传大小
-      max-file-size: 500MB
-      max-request-size: 500MB
+      max-file-size: 1024MB
+      max-request-size: 1024MB
 
 mybatis:
   configuration:
@@ -29,14 +32,9 @@ mybatis:
     use-generated -keys: true #mybatisz插入自增主键返回
   mapper-locations: classpath:mapper/*.xml  # mapper路径配置
 
-
 file:
   folderRealPath: D:/项目/sharingplatform/src/main/resources/static/img #文件夹绝对位置
   folderPath: img #文件夹相对位置
 
-logging:              # 开发使用，对dao层数据库访问进行详细记录（后期删除）
-  level:
-    com:
-      littlea:
-        sharingplatform:
-          mapper: debug
+security:
+  jwtDefaultExp: 1296000
