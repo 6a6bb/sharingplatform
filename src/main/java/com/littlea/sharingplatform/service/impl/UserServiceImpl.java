@@ -121,10 +121,9 @@ public class UserServiceImpl implements UserService {
     public void sendEmailSender(int validationCode, String email) {
         SimpleMailMessage message = new SimpleMailMessage();
         //生成验证码
-
         message.setFrom(this.emailSender);
         message.setText("您的验证码是：" + validationCode);
-        message.setSubject("小A共享平台注册验证码");
+        message.setSubject("小A共享平台");
         message.setTo(email);
         //进行邮件发送
         javaMailSender.send(message);

@@ -5,702 +5,155 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdfcea2f-28bb-4ca8-a7e0-42ddc94c8608" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sharingplatform.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/bo/SelectRoleResultBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/bo/UpdateUserRoleBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/bo/UserLoginBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/config/TaskExecutorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/RoleConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/SystemConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/UserRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/RolePermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/UserInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/mapper/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/mapper/RolePermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/mapper/UserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/CustomerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/MyAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/MyAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/MyGrantedAuthority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/MySecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/util/ErrorHandlerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/util/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/util/RsaKeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/UserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jwtKey" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ecs_4_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_sts_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_M1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_kamon_kamon_annotation_2_12_0_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_kamon_kamon_annotation_2_12_0_6_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_kamon_kamon_core_2_12_0_6_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_kamon_kamon_core_2_12_0_6_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_39_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_39_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_39_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_39_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_39_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_39_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_39_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_39_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_39_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_39_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_39_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_39_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicecomb_saga_saga_core_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicecomb_saga_saga_core_0_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicecomb_saga_transports_transport_resttemplate_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicecomb_saga_transports_transport_resttemplate_0_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_62.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_62.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_12_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_12_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_3_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sharingplatform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sharingplatform.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/SharingplatformApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/SharingplatformApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/config/ConfigProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/config/ConfigProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/config/MyExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/ResultConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/ResultConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/TweetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/TweetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/entity/Tweet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/mapper/TweetMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/mapper/TweetMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/TweetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/TweetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/TweetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/TweetServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/ActionEnter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/ConfigManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/Encoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/PathFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/controller/UEditorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/define/ActionMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/define/ActionState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/define/AppInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/define/BaseState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/define/FileType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/define/MIMEType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/define/MultiState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/define/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/hunter/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/hunter/ImageHunter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/upload/Base64Uploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/upload/BinaryUploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/upload/StorageManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/ueditor/upload/Uploader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/util/UploadFileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/util/UploadFileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/anchor/anchor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/attachment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/attachment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/alignicon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/alignicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/file-icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/file-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/attachment/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/background/background.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/background/background.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/background/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/background/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/background/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/chart.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/charts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/charts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/images/charts0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/images/charts1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/images/charts2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/images/charts3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/images/charts4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/charts/images/charts5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/emotion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/emotion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/emotion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/bface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/cface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/fface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/tface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/wface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/emotion/images/yface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/gmap/gmap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/help/help.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/help/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/help/help.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/image.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/image.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/images/alignicon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/image/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/insertframe/insertframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/internal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/link/link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/map/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/map/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/music/music.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/music/music.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/music/music.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/preview/preview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/addimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/brush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/delimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/delimgH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/empty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/emptyH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/eraser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/redo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/redoH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/scaleH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/size.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/undo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/images/undoH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/scrawl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/scrawl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/scrawl/scrawl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/searchreplace/searchreplace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/searchreplace/searchreplace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/snapscreen/snapscreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/spechars/spechars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/spechars/spechars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/table/dragicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/table/edittable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/table/edittable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/table/edittable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/table/edittd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/table/edittip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/images/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/images/pre0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/images/pre1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/images/pre2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/images/pre3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/images/pre4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/template.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/template/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/center_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/file-icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/file-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/left_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/none_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/right_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/video.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/video/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/webapp/webapp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/wordimage/imageUploader.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/wordimage/tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/wordimage/wordimage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dialogs/wordimage/wordimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/20200214113217320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/20200214113345899.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/20200214113840532.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/20200214113859000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/20200214114314520.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jsp/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jsp/controller.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jsp/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jsp/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jsp/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jsp/lib/json.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jsp/lib/ueditor-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/addimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/deletedisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/deleteenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/listbackground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/localimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/music.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/rotateleftdisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/rotateleftenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/rotaterightdisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/rotaterightenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/en/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/zh-cn/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/zh-cn/images/localimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/zh-cn/images/music.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/zh-cn/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lang/zh-cn/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/css/ueditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/css/ueditor.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/dialogbase.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/anchor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/arrow_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/arrow_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/button-bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/cancelbutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/charts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/cursor_h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/cursor_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/cursor_v.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/cursor_v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/dialog-title-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/filescan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/highlighted.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/icons-all.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/loaderror.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/lock.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/neweditor-tab-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/pagebreak.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/sortable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/spacer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/sparator_v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/table-cell-align.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/tangram-colorpicker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/toolbar_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/unhighlighted.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/videologo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/word.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/default/images/wordpaste.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/themes/iframe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/codemirror/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/codemirror/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/highcharts-more.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/highcharts.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/annotations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/annotations.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/drilldown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/funnel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/funnel.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/heatmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/map.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/themes/dark-blue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/themes/dark-green.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/themes/gray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/themes/grid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/highcharts/themes/skies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/jquery-1.10.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/jquery-1.10.2.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/font/vjs.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/font/vjs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/font/vjs.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/font/vjs.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/video-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/video-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/video-js.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/video.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/video-js/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/Uploader.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.html5only.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/xss.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ueditor.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ueditor.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ueditor.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ueditor.parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ueditor.parse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/littlea/sharingplatform/SharingplatformApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/littlea/sharingplatform/SharingplatformApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sharingplatform.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/sharingplatform.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/SharingplatformApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/SharingplatformApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/config/ConfigProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/config/ConfigProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/config/MyExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/constant/ResultConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/constant/ResultConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/controller/TweetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/controller/TweetController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/entity/Tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/entity/Tweet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/service/TweetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/service/TweetService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/service/impl/TweetServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/service/impl/TweetServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/ActionEnter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/ConfigManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/Encoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/PathFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/controller/UEditorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/ActionMap$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/ActionMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/ActionState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/AppInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/AppInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/BaseState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/FileType$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/FileType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/MIMEType$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/MIMEType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/MultiState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/define/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/hunter/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/hunter/ImageHunter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/upload/Base64Uploader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/upload/BinaryUploader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/upload/StorageManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/ueditor/upload/Uploader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/util/UploadFileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/littlea/sharingplatform/util/UploadFileUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/anchor/anchor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/attachment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/attachment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/alignicon.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/alignicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/file-icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/file-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/attachment/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/background/background.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/background/background.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/background/background.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/background/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/background/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/chart.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/charts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/charts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/charts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/images/charts0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/images/charts1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/images/charts2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/images/charts3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/images/charts4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/charts/images/charts5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/emotion.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/emotion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/emotion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/bface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/cface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/fface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/tface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/wface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/emotion/images/yface.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/gmap/gmap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/help/help.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/help/help.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/help/help.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/image.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/image.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/images/alignicon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/image/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/insertframe/insertframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/internal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/link/link.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/map/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/map/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/music/music.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/music/music.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/music/music.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/preview/preview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/addimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/brush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/delimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/delimgH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/empty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/emptyH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/eraser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/redo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/redoH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/scaleH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/size.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/undo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/images/undoH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/scrawl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/scrawl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/scrawl/scrawl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/searchreplace/searchreplace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/searchreplace/searchreplace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/snapscreen/snapscreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/spechars/spechars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/spechars/spechars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/table/dragicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/table/edittable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/table/edittable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/table/edittable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/table/edittd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/table/edittip.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/images/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/images/pre0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/images/pre1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/images/pre2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/images/pre3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/images/pre4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/template.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/template/template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/center_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/file-icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/file-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/left_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/none_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/right_focus.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/video.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/video/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/webapp/webapp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/wordimage/imageUploader.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/wordimage/tangram.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/wordimage/wordimage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/dialogs/wordimage/wordimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/20200214113217320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/20200214113345899.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/20200214113840532.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/20200214113859000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jsp/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jsp/controller.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jsp/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jsp/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jsp/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jsp/lib/json.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jsp/lib/ueditor-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/addimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/deletedisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/deleteenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/listbackground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/localimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/music.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/rotateleftdisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/rotateleftenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/rotaterightdisable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/rotaterightenable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/en/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/zh-cn/images/copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/zh-cn/images/localimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/zh-cn/images/music.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/zh-cn/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/lang/zh-cn/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/css/ueditor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/css/ueditor.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/dialogbase.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/anchor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/arrow_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/arrow_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/button-bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/cancelbutton.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/charts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/cursor_h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/cursor_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/cursor_v.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/cursor_v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/dialog-title-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/filescan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/highlighted.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/icons-all.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/loaderror.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/lock.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/neweditor-tab-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/pagebreak.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/sortable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/spacer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/sparator_v.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/table-cell-align.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/tangram-colorpicker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/toolbar_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/unhighlighted.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/videologo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/word.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/default/images/wordpaste.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/themes/iframe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/codemirror/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/codemirror/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/highcharts-more.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/highcharts-more.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/highcharts.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/annotations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/annotations.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/data.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/drilldown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/exporting.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/exporting.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/funnel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/funnel.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/heatmap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/map.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/themes/dark-blue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/themes/dark-green.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/themes/gray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/themes/grid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/highcharts/themes/skies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/jquery-1.10.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/jquery-1.10.2.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/font/vjs.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/font/vjs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/font/vjs.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/font/vjs.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/video-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/video-js.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/video-js.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/video.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/video-js/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/Uploader.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.html5only.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/xss.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/ueditor.all.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/ueditor.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/ueditor.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/ueditor.parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/ueditor.parse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/littlea/sharingplatform/SharingplatformApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/littlea/sharingplatform/SharingplatformApplicationTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -734,19 +187,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/SharingplatformApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="314">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="48" column="54" lean-forward="true" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
-              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+              <caret line="126" column="29" lean-forward="true" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8">
+              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="1969" column="50" selection-start-line="1969" selection-start-column="50" selection-end-line="1969" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -782,7 +296,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/PasswordEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/BasicAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/SharingplatformApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/UserRoleService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -794,9 +307,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/MyAccessDeniedHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/MyAuthenticationEntryPoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/security/MySecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/SharingplatformApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/MailConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -808,6 +323,12 @@
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\MAVEN本地仓库" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -832,8 +353,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="-5" />
+    <option name="x" value="410" />
+    <option name="y" value="10" />
     <option name="width" value="1540" />
     <option name="height" value="820" />
   </component>
@@ -901,13 +422,6 @@
               <item name="littlea" type="462c0819:PsiDirectoryNode" />
               <item name="sharingplatform" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sharingplatform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sharingplatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -939,7 +453,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1054,12 +568,20 @@
       <workItem from="1581606772205" duration="356000" />
       <workItem from="1581650947773" duration="4538000" />
       <workItem from="1581766352940" duration="1083000" />
-      <workItem from="1581768722314" duration="1590000" />
+      <workItem from="1581768722314" duration="10418000" />
     </task>
+    <task id="LOCAL-00001" summary="完成登录模块的开发">
+      <created>1581770376601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581770376602</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2695000" />
+    <option name="totallyTimeSpent" value="11523000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1084,13 +606,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39276138" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.39276138" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" visible="true" weight="0.15013404" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3297587" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" weight="0.3297587" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.3994638" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -1151,30 +673,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="基本完成推文模块开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本完成推文模块开发" />
+    <MESSAGE value="完成登录模块的开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成登录模块的开发" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/config/TaskExecutorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/ResultConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/SystemConstant.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/RoleConstant.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1262,24 +768,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/jwtKey">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/UserRoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="20" column="76" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1403,27 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserRoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1437,17 +912,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/SharingplatformApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="1969" column="50" selection-start-line="1969" selection-start-column="50" selection-end-line="1969" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/constant/MailConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/SharingplatformApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <caret line="126" column="29" lean-forward="true" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littlea/sharingplatform/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="48" column="54" lean-forward="true" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
         </state>
       </provider>
     </entry>
