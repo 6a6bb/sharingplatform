@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.littlea.sharingplatform.mapper.UserRoleMapper">
+  <resultMap id="BaseResultMap" type="com.littlea.sharingplatform.entity.UserRole">
+    <!--@mbg.generated-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="role_id" jdbcType="INTEGER" property="roleId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, user_id, role_id
+  </sql>
+  <select id="selectByUserId" resultType="integer">
+    SELECT user_role.role_id
+    FROM user_role
+    WHERE user_role.user_id = #{userId}
+  </select>
+  <update id="updateBatchByUserId">
+    UPDATE user_role SET user_role.role_id = #{updateUserRole.roleId}
+    WHERE user_role.user_id IN
+    <foreach collection="updateUserRole.userIdList" item="userId" open="(" close=")" separator="," >
+          #{userId}
+    </foreach>
+  </update>
+  <select id="selectListByRoleIdOrGroup" resultType="com.littlea.sharingplatform.entity.User">
+    SELECT u.id, u.user_name, u.email, u.team_group
+    FROM user u
+    LEFT JOIN user_role ur ON ur.user_id = u.id
+    <where>
+      <if test="roleId != null">
+        ur.role_id = #{roleId}
+      </if>
+      <if test="teamGroup != null and teamGroup != ''">
+        AND u.team_group = #{teamGroup}
+      </if>
+    </where>
+  </select>
+</mapper>

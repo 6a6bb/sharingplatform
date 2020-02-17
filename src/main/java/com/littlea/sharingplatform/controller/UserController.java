@@ -47,7 +47,7 @@ public class UserController {
 
     @PreAuthorize("hasRole('ROLE_USER')")
     @PostMapping("/api/userAuthority/password/update")
-    public Result updatePassword(@RequestParam String password, UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken) {
+    public Result updatePassword(@RequestBody String password, UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken) {
         return userService.updatePassword(password, Integer.valueOf(usernamePasswordAuthenticationToken.getName()));
     }
 }
