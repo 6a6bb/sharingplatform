@@ -10,7 +10,6 @@ import com.littlea.sharingplatform.vo.Result;
  */
 public class  ResultConstant {
     public final static Result SYSTEM_ERROR = new Result<>(500, "系统错误");
-    public final static Result ARGS_ERROR = new Result<>(400, "参数错误");
     public final static Result SUCCESS = new Result<>(200, "ok");
     public final static Result PICTURE_FORMAT_ERROR = new Result<>(400, "图片格式错误");
 
@@ -24,11 +23,13 @@ public class  ResultConstant {
 
     public final static Result PASSWORD_ERROR = new Result(1002, "账号或密码错误");
 
-    public final static Result ARG_ERROR = new Result(600, "参数错误");
+    public final static Result ARGS_ERROR = new Result(600, "参数错误");
 
     public final static Result USERNAME_EXIST = new Result(1003,"用户名已经存在");
     public static final Result EMAIL_HOST_EXIST = new Result(1004,"邮箱已经被注册");
     public static final Result NO_ROLE_UPDATE = new Result(1005,"角色权限不足");
+    public static final Result FILE_ERROR = new Result(1006, "文件错误");
+
     private ResultConstant() {
 
     }

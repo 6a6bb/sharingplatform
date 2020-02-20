@@ -58,7 +58,7 @@ public class UserServiceImpl implements UserService {
     public Result login(UserLoginBo userLoginBo) {
         //检查参数是否错误
         if (Objects.isNull(userLoginBo.getPassword()) || Objects.isNull(userLoginBo.getUsername())){
-            return ResultConstant.ARG_ERROR;
+            return ResultConstant.ARGS_ERROR;
         }
         //从数据库获取该用户的数据
         User user = userMapper.selectOne(new QueryWrapper<User>().eq("user_name", userLoginBo.getUsername()));
@@ -83,7 +83,7 @@ public class UserServiceImpl implements UserService {
     public Result register(User user) {
         if (Objects.isNull(user.getEmail()) || Objects.isNull(user.getTeamGroup())
                 || Objects.isNull(user.getUserPassword()) || Objects.isNull(user.getUserName())){
-                    return ResultConstant.ARG_ERROR;
+                    return ResultConstant.ARGS_ERROR;
         }
         //先去user里查看是否存在username相同的情况
         User oldUser = userMapper.selectOne(new QueryWrapper<User>().eq("user_name", user.getUserName()));

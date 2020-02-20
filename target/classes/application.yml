@@ -9,7 +9,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       username: root
       password: 225588
-      url: jdbc:mysql://47.97.186.90/share_knowledge?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF8
+      url: jdbc:mysql://47.97.186.90/share_knowledge?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF8
   redis:
     database: 1
     host: 47.97.186.90
@@ -35,6 +35,7 @@ mybatis:
 file:
   folderRealPath: D:/项目/sharingplatform/src/main/resources/static/img #文件夹绝对位置
   folderPath: img #文件夹相对位置
+  imagePrefix: http://localhost:8080
 
 security:
   jwtDefaultExp: 1296000

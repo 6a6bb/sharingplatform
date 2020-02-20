@@ -30,7 +30,7 @@ public class UserRoleServiceImpl implements UserRoleService {
         }
         //检查参数
         if (Objects.isNull(updateUserRoleBo.getRoleId()) || CollectionUtils.isEmpty(updateUserRoleBo.getUserIdList())){
-            return ResultConstant.ARG_ERROR;
+            return ResultConstant.ARGS_ERROR;
         }
 
         //将一系列人员修改为RoleId对应的角色
