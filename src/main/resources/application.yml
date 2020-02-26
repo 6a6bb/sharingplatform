@@ -35,7 +35,8 @@ mybatis:
 file:
   folderRealPath: D:/项目/sharingplatform/src/main/resources/static/img #文件夹绝对位置
   folderPath: img #文件夹相对位置
-  imagePrefix: http://47.97.186.90:8080
+  imageRealPath: /root/image/
+  imagePrefix: http://47.97.186.90:10000/image/
 
 security:
   jwtDefaultExp: 1296000

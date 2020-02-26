@@ -36,10 +36,13 @@ public class KnowledgeServiceImpl implements KnowledgeService {
     @NonNull
     private KnowledgeMapper knowledgeMapper;
 
-    private String pathPrefix = ClassUtils.getDefaultClassLoader().getResource("static").getPath().substring(1);
+    @Value("${file.imageRealPath}")
+    private String pathPrefix;
+
 
     @Value("${file.imagePrefix}")
     private String imagePrefix;
+
     @Override
     public Result uploadMdString(UploadMdStringBo uploadMdStringBo, Integer userId) {
         if (Objects.isNull(uploadMdStringBo.getName()) || Objects.isNull(uploadMdStringBo.getContent())
@@ -72,7 +75,7 @@ public class KnowledgeServiceImpl implements KnowledgeService {
                 return ResultConstant.FILE_ERROR;
             }
             imageInputStream.close();
-            String filename = "/img/" + UUID.randomUUID() + ".jpg";
+            String filename = UUID.randomUUID() + ".jpg";
 
             byte[] bytes = file.getBytes();
             Path path = Paths.get(pathPrefix + filename);
