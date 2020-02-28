@@ -3,6 +3,7 @@ package com.littlea.sharingplatform.service.impl;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.littlea.sharingplatform.bo.UserLoginBo;
+import com.littlea.sharingplatform.bo.UserLoginResultBo;
 import com.littlea.sharingplatform.constant.ResultConstant;
 import com.littlea.sharingplatform.constant.RoleConstant;
 import com.littlea.sharingplatform.constant.SystemConstant;
@@ -76,8 +77,9 @@ public class UserServiceImpl implements UserService {
         //将userInformation存储进redis
         redisUtil.set(SystemConstant.AUTHORIZATION_PREFIX + user.getId(), JSONObject.toJSONString(userInformation));
 
-        return new Result<>(token);
+        return new Result<>(new UserLoginResultBo(roleId, token));
     }
+
     @Transactional(rollbackFor = Exception.class)
     @Override
     public Result register(User user) {
